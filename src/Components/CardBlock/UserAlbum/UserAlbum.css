@@ -1,0 +1,29 @@
+.photo {
+  width: 70px;
+  height: 70px;
+} 
+
+.album-images {
+  display: flex;
+  gap: 10px;
+}
+
+.album-images img {
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.album-images img:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  font-size: 16px;
+}
+
+.user-album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}

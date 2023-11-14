@@ -1,0 +1,27 @@
+.firends-blcok {
+  display: flex;
+  flex-direction: column;
+}
+
+.firends-hedear {
+  background-color: rgb(86, 86, 231);
+  padding: 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.firends-hedear h3 {
+  color: white;
+}
+
+.firends-name {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.firends-name img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

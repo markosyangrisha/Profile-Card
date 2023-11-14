@@ -1,0 +1,38 @@
+.user-block {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.user-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.user-about span {
+  display: flex;
+  gap: 10px;
+}
+
+.user-about span i {
+  color: green;
+}
+
+.user-info {
+  padding: 20px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.796);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.297);
+  padding: 10px 0; 
+  font-weight: 300;
+}
+
+.user-about{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
